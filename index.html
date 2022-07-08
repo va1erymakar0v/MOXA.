@@ -1,0 +1,345 @@
+<!-- кроссбраузерность, разобраться с формой -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Portfolio">
+		<meta name="creator" content="Valeriy Makarov">
+		<link rel="icon" href="images/icon.jpg">
+		<link rel="stylesheet" href="css/style.css">
+		<title>MOXA.</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="decorative-overlay"></div>
+			<header class="header" id="home">
+				<!-- header--active for active -->
+				<div class="container container--large header__inner">
+					<a class="header__logo" href="#">
+						<span class="header__logo-decorative"></span>
+						<span class="header__logo-text"></span>
+						<span class="visually-hidden">MOXA.</span>
+					</a>
+					<button class="header__burger">
+						<span class="visually-hidden">Open menu</span>
+					</button>
+					<nav class="header__navigation">
+						<ul class="header__menu">
+							<li class="header__menu-item">
+								<a class="header__menu-link" href="#home">Home</a>
+							</li>
+							<li class="header__menu-item">
+								<a class="header__menu-link" href="#about">About</a>
+							</li>
+							<li class="header__menu-item">
+								<a class="header__menu-link" href="#form">Contact</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="header__button" href="#form">
+						<span class="header__button-text">Let's talk</span>
+					</a>
+				</div>
+			</header>
+			<main class="main">
+				<section class="presentation">
+					<div class="container container--large presentation__inner">
+						<h1 class="visually-hidden">MOXA. Tayler's portfolio.</h1>
+						<div class="presentation__intro">
+							<p class="presentation__text">Hi, i'm Tayler. <br> A creative <span class="presentation__decorative"></span> designer <br> based in london</p>
+						</div>
+						<ul class="presentation__list">
+							<li class="presentation__item">Design</li>
+							<li class="presentation__item">Development</li>
+							<li class="presentation__item">Webflow</li>
+						</ul>
+						<div class="presentation__link">
+							<span class="presentation__button presentation__button--intro">Got a project?</span>
+							<a class="presentation__button presentation__button--main" href="#form">Let's talk.</a>
+						</div>
+					</div>
+				</section>
+
+				<div class="decorative-line">
+					<ul class="decorative-line__inner">
+						<li class="decorative-line__item">Development</li>
+						<li class="decorative-line__item">Strategy</li>
+						<li class="decorative-line__item">Product design</li>
+						<li class="decorative-line__item">Motion graphic</li>
+						<li class="decorative-line__item">Art director</li>
+						<li class="decorative-line__item">Design</li>
+						<li class="decorative-line__item">Branding</li>
+						<!-- break -->
+						<li class="decorative-line__item">Development</li>
+						<li class="decorative-line__item">Strategy</li>
+						<li class="decorative-line__item">Product design</li>
+						<li class="decorative-line__item">Motion graphic</li>
+						<li class="decorative-line__item">Art director</li>
+						<li class="decorative-line__item">Design</li>
+						<li class="decorative-line__item">Branding</li>
+					</ul>
+				</div>
+
+				<section class="about" id="about">
+					<h2 class="visually-hidden">About me</h2>
+					<div class="container container--small about__inner">
+						<div class="about__info">
+							<div class="about__intro">
+								<div class="about__name">
+									<span class="about__first-name">Tayler</span>
+									<span class="about__last-name">Barthhold</span>
+								</div>
+								<p class="about__job">Lead product designer and art director.</p>
+							</div>
+							<div class="about__person">
+								<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+								<p class="about__subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<ul class="about__list">
+									<li class="about__item">
+										<span class="about__item-heading">Born in</span>
+										<span class="about__item-content">New York</span>
+									</li>
+									<li class="about__item">
+										<span class="about__item-heading">Experience</span>
+										<span class="about__item-content">7+ Years</span>
+									</li>
+									<li class="about__item">
+										<span class="about__item-heading">Date of birth</span>
+										<span class="about__item-content">27 June 1992</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<ul class="about__stats pre-animated uncounted">
+							<li class="about__stats-item about__stats-item--default">
+								<span class="about__stats-heading about__stats-heading--years">7+</span>
+								<span class="about__stats-content">Years of experience</span>
+							</li>
+							<li class="about__stats-item about__stats-item--contrast">
+								<span class="about__stats-heading about__stats-heading--projects">50+</span>
+								<span class="about__stats-content">Projects completed</span>
+							</li>
+							<li class="about__stats-item about__stats-item--default">
+								<span class="about__stats-heading about__stats-heading--clients">30+</span>
+								<span class="about__stats-content">Happy clients</span>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="awards">
+					<h2 class="section-title">Awards</h2>
+					<span class="section-subtitle">Recognitions & Accomplishments</span>
+					<div class="container container--small awards__inner">
+						<ul class="awards__list">
+							<li class="awards__item">
+								<div class="awards__front">
+									<span class="awards__order">1</span>
+									<div class="awards__content">
+										<span class="awards__organization">Webflow Awwwards Team</span>
+										<span class="awards__award">Runner Up - Webflow Expert Design</span>
+									</div>
+									<span class="awards__area">Product design</span>
+									<span class="awards__date">2022</span>
+								</div>
+								<div class="awards__back awards__back--product">
+									<span class="visually-hidden">Picture of an award</span>
+								</div>
+							</li>
+							<li class="awards__item">
+								<div class="awards__front">
+									<span class="awards__order">2</span>
+									<div class="awards__content">
+										<span class="awards__organization">Art Commitee</span>
+										<span class="awards__award">Best designer of the year</span>
+									</div>
+									<span class="awards__area">Art director</span>
+									<span class="awards__date">2021</span>
+								</div>
+								<div class="awards__back awards__back--art">
+									<span class="visually-hidden">Picture of an award</span>
+								</div>
+							</li>
+							<li class="awards__item">
+								<div class="awards__front">
+									<span class="awards__order">3</span>
+									<div class="awards__content">
+										<span class="awards__organization">Branding for the brands</span>
+										<span class="awards__award">Qualification sertificate - Brand exploration</span>
+									</div>
+									<span class="awards__area">Branding</span>
+									<span class="awards__date">2017</span>
+								</div>
+								<div class="awards__back awards__back--branding">
+									<span class="visually-hidden">Picture of an award</span>
+								</div>
+							</li>
+							<li class="awards__item">
+								<div class="awards__front">
+									<span class="awards__order">4</span>
+									<div class="awards__content">
+										<span class="awards__organization">Developers Assosiation</span>
+										<span class="awards__award">Developer's keyboard</span>
+									</div>
+									<span class="awards__area">Development</span>
+									<span class="awards__date">2014</span>
+								</div>
+								<div class="awards__back awards__back--development">
+									<span class="visually-hidden">Picture of an award</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="portfolio">
+					<h2 class="section-title">Portfolio</h2>
+					<span class="section-subtitle">Projects & Ideas</span>
+					<div class="container container--small portfolio__inner">
+						<ul class="portfolio__list">
+							<li class="portfolio__item pre-animated">
+								<img class="portfolio__cover" src="images/projects/art-project.jpg" alt="Art project" width="460" height="307">
+								<div class="portfolio__project">
+									<span class="portfolio__label">Art direction</span>
+									<p class="portfolio__name">Beautiful and advanced website interfaces</p>
+									<a class="portfolio__link" href="#">Read More</a>
+								</div>
+							</li>
+							<li class="portfolio__item portfolio__item--reverse pre-animated">
+								<img class="portfolio__cover" src="images/projects/branding-project.jpg" alt="Branding project" width="460" height="307">
+								<div class="portfolio__project">
+									<span class="portfolio__label">Branding</span>
+									<p class="portfolio__name">Design and extreme programming practice</p>
+									<a class="portfolio__link" href="#">Read More</a>
+								</div>
+							</li>
+							<li class="portfolio__item pre-animated">
+								<img class="portfolio__cover" src="images/projects/design-project.jpg" alt="Web design project" width="460" height="307">
+								<div class="portfolio__project">
+									<span class="portfolio__label">Web design</span>
+									<p class="portfolio__name">Nature inspired design</p>
+									<a class="portfolio__link" href="#">Read More</a>
+								</div>
+							</li>
+							<li class="portfolio__item portfolio__item--reverse pre-animated">
+								<img class="portfolio__cover" src="images/projects/motion-project.jpg" alt="Motion graphics project" width="460" height="307">
+								<div class="portfolio__project">
+									<span class="portfolio__label">Motion graphics</span>
+									<p class="portfolio__name">Design & concept at work.</p>
+									<a class="portfolio__link" href="#">Read More</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="customers">
+					<h2 class="section-title">Happy customers</h2>
+					<div class="container container--small customers__inner">
+						<ul class="customers__slider">
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/verox.png" alt="happy client: verox" width="104" height="12">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/invoice.png" alt="happy client: invoice 2 go" width="98" height="16">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/tribal.png" alt="happy client: tribal" width="72" height="16">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/republica.png" alt="happy client: republica" width="122" height="12">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/verox.png" alt="happy client: verox" width="104" height="12">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/tribal.png" alt="happy client: tribal" width="72" height="16">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/invoice.png" alt="happy client: invoice 2 go" width="98" height="16">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/republica.png" alt="happy client: republica" width="122" height="12">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/tribal.png" alt="happy client: tribal" width="72" height="16">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/republica.png" alt="happy client: republica" width="122" height="12">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/verox.png" alt="happy client: verox" width="104" height="12">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/invoice.png" alt="happy client: invoice 2 go" width="98" height="16">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/invoice.png" alt="happy client: invoice 2 go" width="98" height="16">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/republica.png" alt="happy client: republica" width="122" height="12">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/verox.png" alt="happy client: verox" width="104" height="12">
+							</li>
+							<li class="customers__item">
+								<img class="customers__logo" src="images/clients/tribal.png" alt="happy client: tribal" width="72" height="16">
+							</li>
+						</ul>
+						<div class="slider-tip">
+							scroll to watch all my happy clients
+						</div>
+					</div>
+				</section>
+
+				<section class="contact" id="form">
+					<h2 class="section-title">Contact me</h2>
+					<div class="container container--small contact__inner">
+						<form class="form" action="" method="">
+							<div class="form__input">
+								<label class="form__input-label" for="project">Type of project</label>
+								<input class="form__input-area" type="text" name="project" id="project" placeholder="Design, Branding ...">
+							</div>
+							<div class="form__input">
+								<label class="form__input-label" for="email">Email</label>
+								<input class="form__input-area" type="email" name="email" id="email" placeholder="Your Email">
+							</div>
+							<button class="form__submit" type="submit">
+								<span class="form__submit-text">Submit</span>
+							</button>
+						</form>
+						<div class="socials">
+							<p class="socials__heading">Or just contact me on any social.</p>
+							<ul class="socials__list">
+								<li class="socials__item socials__item--linkedin">
+									<span class="visually-hidden">My linkedin</span>
+								</li>
+								<li class="socials__item socials__item--twitter">
+									<span class="visually-hidden">My twitter</span>
+								</li>
+								<li class="socials__item socials__item--instagram">
+									<span class="visually-hidden">My instagram</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="form-popup">
+						Thak you for a feedback. I got your letter and will contact you!
+						<button class="form-popup__button">
+							<span class="form-popup__button-text">Close</span>
+						</button>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="container container--small footer__inner">
+					<a class="footer__logo" href="#home">
+						<span class="visually-hidden">Go to the start of the page</span>
+					</a>
+					<p class="footer__copyright">© Made by Portfolio Template & powered by Flowbase</p>
+				</div>
+			</footer>
+		</div>
+	<script src="js/script.js"></script>
+	</body>
